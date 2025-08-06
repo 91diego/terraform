@@ -36,3 +36,7 @@ variable "monitoring" {
   description = "enabling instance deployment monitoring"
   type        = bool
 }
+
+variable "access_key" {}
+
+variable "secret_key" {}
