@@ -51,7 +51,7 @@ resource "aws_route_table_association" "crta_public_subnet" {
 
 
 resource "aws_security_group" "sg_public_instance" {
-  name        = "public instance sg"
+  name        = "public instance SG"
   description = "Allow SSH inbound traffic and all egress traffic"
   vpc_id      = aws_vpc.vpc_virgina.id
 
